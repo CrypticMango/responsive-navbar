@@ -1,123 +1,123 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
 }
 
-.fa-bars, .fa-x {
+.fa-solid {
     display: none;
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
 }
 
 nav {
-    background: pink;
-    height: 80px;
-    width: 100%;
+	background: pink;
+	height: 80px;
+	width: 100%;
 }
 
 label.logo {
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
 }
 
 nav ul {
-    float: right;
-    margin-right: 20px;
+	float: right;
+	margin-right: 20px;
 }
 
 nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-    
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
 }
 
 nav ul li a {
-    color: white;
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 7px 13px;
-    border-radius: 3px;
-    font-weight: bold;
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+	font-weight: bold;
 }
 
-a.active,a:hover {
-    background: rgb(247, 154, 169);
-    transition: .5s;
+a.active,
+a:hover {
+	background: rgb(247, 154, 169);
+	transition: 0.5s;
 }
 
-@media (max-width:952px) {
-    label.logo {
-        font-size: 30px;
-        padding-left: 50px;
-    }
+@media (max-width: 952px) {
+	label.logo {
+		font-size: 30px;
+		padding-left: 50px;
+	}
 
-    nav ul li a {
-        font-size: 16px;
-    }
+	nav ul li a {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 858px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
-    }
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
 
-    .fa-x {
-        display: none;
-        color: white;
-        font-size: 30px;
-        padding: 25px 50px 0px 0px;
+	.fa-x {
+		display: none;
+		color: white;
+		font-size: 30px;
+		padding: 25px 50px 0px 0px;
+	}
 
-    }
-    
-    .fa-bars {
-        display: block;
-        color: white;
-        font-size: 30px;
-        padding: 25px 50px 0px 0px;
-    }
+	.fa-bars {
+		display: block;
+		color: white;
+		font-size: 30px;
+		padding: 25px 50px 0px 0px;
+	}
 
-    .fa-bars:hover {
-        cursor: pointer;
-    }
+	.fa-bars:hover {
+		cursor: pointer;
+	}
 
-    .menu {
-        display: none;
-    }
+	.menu {
+		display: none;
+	}
 
-    ul {
-        position:fixed;
-        width: 100%;
-        height: 100vh;
-        background-color: maroon;
-        top: 80px;
-        left: -100;
-        text-align: center;
-        transition: all .5s;
-    }
+	ul {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: maroon;
+		top: 80px;
+		left: -100;
+		text-align: center;
+		transition: all 0.5s;
+	}
 
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
+	nav ul li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
 
-    nav ul li a {
-        font-size: 20px;
-    }
+	nav ul li a {
+		font-size: 20px;
+	}
 
-    a:hover,a.active {
-        background: none;
-        color: rgb(168, 103, 114);
-    }
-
+	a:hover,
+	a.active {
+		background: none;
+		color: rgb(168, 103, 114);
+	}
 }
